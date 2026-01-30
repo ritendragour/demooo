@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/f161ee674cd7ffa19dbd6f9d841e223e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px 50px 20px;
+    border-radius: 25px;
+}
+h1{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+label{
+    font-size: 24px;
+}
+input{
+    /* padding: 20px; */
+    /* padding: 20px 10px; */
+    /* padding: 20px 10px 50px 100px; */
+    /* padding: 20px 50px 100px; */
+    padding: 5px 20px;
+}
